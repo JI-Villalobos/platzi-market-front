@@ -1,0 +1,27 @@
+
+
+form {
+    height: 350px;
+    width: 400px;
+}
+
+form h2 {
+    font-size: 3rem;
+}
+
+
+form p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+form input {
+    height: 35px;
+    width: 275px;
+}
+
+form button {
+    height: 40px;
+    width: 275px;
+    font-size: 2.5rem;
+}

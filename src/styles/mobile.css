@@ -10,19 +10,18 @@ html{
 }
 
 body {
-    background-image: url(../assets/imgs/background-mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #39A327;
 }
 
 main {
-    height: 93vh;
+    height: 90vh;
 }
 
 .img-icon {
     margin-top: 15px;
     display: flex;
     justify-content: center;
+    margin-bottom: 45px;
 }
 
 .img-icon img {
@@ -30,16 +29,15 @@ main {
 }
 
 form {
-    margin-top: 45px;
     background: rgba(226, 185, 38, 0.36);
     margin: auto;
     width: 70%;
-    height: 250px;
+    height: 55%;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 
@@ -77,7 +75,7 @@ form button {
 
 footer {
     font-size: 1.5rem;
-    color: #39A327;
+    color: white;
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
