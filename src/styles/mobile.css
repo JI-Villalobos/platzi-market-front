@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../assets/imgs/background-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 93vh;
+}
+
+.img-icon {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-icon img {
+    width: 200px;
+}
+
+form {
+    margin-top: 45px;
+    background: rgba(226, 185, 38, 0.36);
+    margin: auto;
+    width: 70%;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+form h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+
+form p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+form input {
+    margin-top: 0.5rem;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background: #F0F2EF;
+}
+
+form button {
+    margin-top: 25px;
+    height: 30px;
+    width: 175px;
+    border: none;
+    border-radius: 5px;
+    background: #E2B926;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 1.5rem;
+    color: #39A327;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
