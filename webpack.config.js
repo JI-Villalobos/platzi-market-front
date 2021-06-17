@@ -45,7 +45,10 @@ module.exports = {
             template: './public/index.html',
             filename: './index.html'
         }),
-        new MiniCssExtractPlugin(),
+        new MiniCssExtractPlugin({
+            filename: 'mobile.css',
+            filename: 'desktop.css'
+        }),
         new CopyPlugin({
             patterns: [
                 {
