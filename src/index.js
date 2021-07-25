@@ -1,7 +1,16 @@
-import Login from './views/Login'
+import { router } from "./routes/index.routes";
 
+const init = () => {
+    router(window.location.hash)
 
-const mainContent = document.querySelector("body")
+    window.addEventListener("hashchange", () => {
+        router(window.location.hash)
+    })
+}
+
+window.addEventListener("load", init)
+
+/*const mainContent = document.querySelector("body")
 mainContent.innerHTML = `
     <main>
         <div class="img-icon">
@@ -9,4 +18,4 @@ mainContent.innerHTML = `
         </div>
         <login-form>
     </main>
-    `
+    `*/
