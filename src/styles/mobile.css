@@ -28,7 +28,7 @@ main {
     width: 200px;
 }
 
-form {
+/*form {
     background: rgba(226, 185, 38, 0.36);
     margin: auto;
     width: 70%;
@@ -71,7 +71,7 @@ form button {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
-}
+}*/
 
 footer {
     font-size: 1.5rem;
